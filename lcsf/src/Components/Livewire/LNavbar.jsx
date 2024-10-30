@@ -1,13 +1,15 @@
-import Clogo from "../../assets/cadd_centre_logo.svg";
-import "./Home.css";
+import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+export const LNavbar = () => {
   return (
     <nav className="navbar navbar-expand-sm container">
       <div className="container-fluid">
         {/* Logo */}
         <a className="navbar-brand" href="#">
-          <img src={Clogo} alt="CADD Centre Logo" />
+          <img
+            src="https://livewireindia.com/assets/livewirelogo.png"
+            alt="Livewire Logo"
+          />
         </a>
 
         {/* Toggle Button for Mobile View */}
@@ -25,19 +27,14 @@ export const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             {/* Align this part to the right */}
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <Link className="nav-link" to="/">
+                CaddCentre
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <Link to="/" className="nav-link">
+                Synergy
+              </Link>
             </li>
 
             {/* Dropdown Menu */}

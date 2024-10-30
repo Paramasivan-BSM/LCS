@@ -49,7 +49,7 @@ export const Carousel = () => {
         className="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
+        data-bs-slide="preCoursesComponentv"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true" />
         <span className="visually-hidden">Previous</span>

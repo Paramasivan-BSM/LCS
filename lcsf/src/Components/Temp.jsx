@@ -1,12 +1,13 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { P1 } from "./Home/P1";
+import { CO } from "./Caddcentre/CO";
+import { LO } from "./Livewire/LO";
 
 export const Temp = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<P1 />}></Route>
+        <Route path="/" element={<CO />} />
+        <Route path="/lw" element={<LO />} />
       </Routes>
     </BrowserRouter>
   );

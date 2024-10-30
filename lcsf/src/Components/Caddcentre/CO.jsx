@@ -4,14 +4,16 @@ import { Carousel } from "./Carousel";
 import { Description } from "./Description";
 import { Footer } from "./Footer";
 import { Mid } from "./Mid";
+import CoursesGrid from "./CoursesGrid";
 
-export const P1 = () => {
+export const CO = () => {
   return (
     <div>
       <Navbar />
       <Carousel />
       <Description />
       <Mid />
+      <CoursesGrid />
       <Footer />
     </div>
   );
